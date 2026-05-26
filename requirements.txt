@@ -1,0 +1,5 @@
+groq==0.4.1
+gtts==2.5.1pip uninstall playsound -y
+python-dotenv
+pygame
+#pip install "httpx<0.28.0" --force-reinstall  ( imp to install)
