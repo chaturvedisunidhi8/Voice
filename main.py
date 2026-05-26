@@ -18,7 +18,7 @@ messages = [{"role": "system", "content": "You are a helpful AI assistant."}]
 def text_to_speech(text):
     tts = gTTS(text=text, lang='en')
     tts.save("response.mp3")
-    pygame.mixer.music.load("response.mp3")
+    pygame.mixer.music.load("response.mp3") 
     pygame.mixer.music.play()
     
     while pygame.mixer.music.get_busy():
