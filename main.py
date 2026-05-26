@@ -1,7 +1,7 @@
 import os   
 import time 
 from groq import Groq
-from gtts import gTTS
+from gtts import gTTSb
 import pygame
 from dotenv import load_dotenv
 
