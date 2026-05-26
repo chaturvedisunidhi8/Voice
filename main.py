@@ -1,4 +1,4 @@
-import os 
+import os  
 import time
 from groq import Groq
 from gtts import gTTS
